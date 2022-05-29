@@ -98,6 +98,7 @@ main {
     display: flex;
     flex-flow: column;
     flex: 1 1 auto;
+
 }
 
 h2 {
@@ -109,6 +110,7 @@ h2 {
     display: flex;
     flex-flow: column;
     align-items: center;
+    justify-content: flex-start;
     height: 50vh;
 }
 
@@ -178,4 +180,18 @@ h2 {
     color: #F9FAF8;
     border: 2px solid #F9FAF8;
     border-radius: 10px;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #333;
+    color: #F9FAF8;
+    font-weight: lighter;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 5vh;
 }
