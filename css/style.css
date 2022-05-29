@@ -89,3 +89,32 @@ ul {
     padding: 16px;
     margin: 16px;
 }
+
+/* main section */
+
+h2 {
+    margin: 16px auto;
+}
+
+.container-one {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.pictures {
+    max-width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+.pictures .picture {
+    border: 3px solid #333;
+    border-radius: 10px;
+}
+
+.caption {
+    text-align: center;
+}
