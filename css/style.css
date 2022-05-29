@@ -92,6 +92,14 @@ ul {
 
 /* main section */
 
+/* Container One */
+
+main {
+    display: flex;
+    flex-flow: column;
+    flex: 1 1 auto;
+}
+
 h2 {
     margin: 16px auto;
 }
@@ -101,6 +109,7 @@ h2 {
     display: flex;
     flex-flow: column;
     align-items: center;
+    height: 50vh;
 }
 
 .pictures {
@@ -117,4 +126,21 @@ h2 {
 
 .caption {
     text-align: center;
+}
+
+/* Container Two */
+
+.container-two {
+    padding: 48px;
+    margin: auto 24px;
+    text-align: justify;
+    font-style: oblique;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-two .text-two {
+    max-width: 60%;
 }
