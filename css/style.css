@@ -144,3 +144,38 @@ h2 {
 .container-two .text-two {
     max-width: 60%;
 }
+
+/* Container Three */
+
+.container-three {
+    font-size: 12px;
+    background-color:#E5E7EB;
+    color: #F9FAF8;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 32px;
+
+}
+
+.box-in-three {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 24px;
+    border: none;
+    border-radius: 10px;
+    min-width: 90vh;
+}
+
+.button-three {
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 12px;
+
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+}
